@@ -1,0 +1,34 @@
+{
+  "model": "cnn_se",
+  "checkpoint": "results/full_proposal/cross_vocoder_holdout/cnn_se/best_model.pt",
+  "data_root": "./data/LA2019_full_train_dev",
+  "split": "dev",
+  "protocol_path": null,
+  "audio_dir": null,
+  "protocol_format": "asvspoof2019",
+  "max_eval_samples": null,
+  "augment_eval": false,
+  "augment_prob": 0.0,
+  "device": "mps",
+  "n_samples": 9980,
+  "n_bonafide": 2548,
+  "n_spoof": 7432,
+  "decision_threshold": 0.5,
+  "eer": 0.05067726560691348,
+  "auc_roc": 0.9880625679103305,
+  "accuracy": 0.41312625250501,
+  "precision": 0.996219281663516,
+  "recall": 0.21272874058127017,
+  "f1_score": 0.35059319214990575,
+  "latency_ms_per_clip": 1.6621512034907937,
+  "confusion_matrix": [
+    [
+      2542,
+      6
+    ],
+    [
+      5851,
+      1581
+    ]
+  ]
+}

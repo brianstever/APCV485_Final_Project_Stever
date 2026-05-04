@@ -1,0 +1,117 @@
+[
+  {
+    "experiment": "CNN + SE clean 2021 LA",
+    "n_samples": 181566,
+    "n_bonafide": 18452,
+    "n_spoof": 163114,
+    "eer": 0.1828016384195434,
+    "auc_roc": 0.8979074763977197,
+    "accuracy": 0.9071577277684147,
+    "precision": 0.9566906268149656,
+    "recall": 0.939171377073703,
+    "f1_score": 0.9478500561500552,
+    "latency_ms_per_clip": 1.662871182197705,
+    "confusion_matrix": [
+      [
+        11517,
+        6935
+      ],
+      [
+        9922,
+        153192
+      ]
+    ]
+  },
+  {
+    "experiment": "CNN + SE podcast stress 2021 LA",
+    "n_samples": 181566,
+    "n_bonafide": 18452,
+    "n_spoof": 163114,
+    "eer": 0.18483983422190386,
+    "auc_roc": 0.8852191446961029,
+    "accuracy": 0.8990559906590441,
+    "precision": 0.9563696194871019,
+    "recall": 0.9300673148840688,
+    "f1_score": 0.9430351026598952,
+    "latency_ms_per_clip": 1.566620022058487,
+    "confusion_matrix": [
+      [
+        11531,
+        6921
+      ],
+      [
+        11407,
+        151707
+      ]
+    ]
+  },
+  {
+    "experiment": "ResNet-18 clean 2021 LA",
+    "n_samples": 181566,
+    "n_bonafide": 18452,
+    "n_spoof": 163114,
+    "eer": 0.17211137865112092,
+    "auc_roc": 0.8957451439280307,
+    "accuracy": 0.8548626945573511,
+    "precision": 0.9716256293537485,
+    "recall": 0.863665902375026,
+    "f1_score": 0.9144704385532157,
+    "latency_ms_per_clip": 2.2257195896236226,
+    "confusion_matrix": [
+      [
+        14338,
+        4114
+      ],
+      [
+        22238,
+        140876
+      ]
+    ]
+  },
+  {
+    "experiment": "LFCC-GMM clean 2021 LA",
+    "n_samples": 181566,
+    "n_bonafide": 18452,
+    "n_spoof": 163114,
+    "eer": 0.30886263938997727,
+    "auc_roc": 0.7400104817577855,
+    "accuracy": 0.7062886223191567,
+    "precision": 0.950577863873658,
+    "recall": 0.7099758451144599,
+    "f1_score": 0.81284612307066,
+    "latency_ms_per_clip": null,
+    "confusion_matrix": [
+      [
+        12431,
+        6021
+      ],
+      [
+        47307,
+        115807
+      ]
+    ]
+  },
+  {
+    "experiment": "CNN + SE cross-vocoder A05/A06 dev",
+    "n_samples": 9980,
+    "n_bonafide": 2548,
+    "n_spoof": 7432,
+    "eer": 0.05067726560691348,
+    "auc_roc": 0.9880625679103305,
+    "accuracy": 0.41312625250501,
+    "precision": 0.996219281663516,
+    "recall": 0.21272874058127017,
+    "f1_score": 0.35059319214990575,
+    "latency_ms_per_clip": 1.6621512034907937,
+    "confusion_matrix": [
+      [
+        2542,
+        6
+      ],
+      [
+        5851,
+        1581
+      ]
+    ]
+  }
+]

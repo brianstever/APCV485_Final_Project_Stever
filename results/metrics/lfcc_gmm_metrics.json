@@ -1,0 +1,27 @@
+{
+  "model": "lfcc_gmm",
+  "model_path": "results/full_proposal/lfcc_gmm/lfcc_gmm.joblib",
+  "train_protocol": "data/LA2019_full_train_dev/ASVspoof2019_LA_cm_protocols/ASVspoof2019.LA.cm.train.trn.txt",
+  "eval_protocol": "data/asvspoof2021_keys/extracted/keys/LA/CM/trial_metadata.txt",
+  "n_samples": 181566,
+  "n_bonafide": 18452,
+  "n_spoof": 163114,
+  "decision_threshold": 0.0,
+  "eer": 0.30886263938997727,
+  "auc_roc": 0.7400104817577855,
+  "accuracy": 0.7062886223191567,
+  "precision": 0.950577863873658,
+  "recall": 0.7099758451144599,
+  "f1_score": 0.81284612307066,
+  "confusion_matrix": [
+    [
+      12431,
+      6021
+    ],
+    [
+      47307,
+      115807
+    ]
+  ],
+  "elapsed_seconds": 507.26606488227844
+}

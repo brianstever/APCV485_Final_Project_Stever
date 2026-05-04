@@ -1,0 +1,13 @@
+torch>=2.2
+torchaudio>=2.2
+numpy
+scipy
+soundfile
+matplotlib
+seaborn
+scikit-learn
+pandas
+tqdm
+pydub
+pyarrow
+joblib

@@ -1,0 +1,34 @@
+{
+  "model": "cnn_se",
+  "checkpoint": "results/full_proposal/cnn_se/best_model.pt",
+  "data_root": "./data/LA2019_full_train_dev",
+  "split": "eval",
+  "protocol_path": "data/asvspoof2021_keys/extracted/keys/LA/CM/trial_metadata.txt",
+  "audio_dir": "data/ASVspoof2021_LA_eval/flac",
+  "protocol_format": "asvspoof2021",
+  "max_eval_samples": null,
+  "augment_eval": true,
+  "augment_prob": 1.0,
+  "device": "mps",
+  "n_samples": 181566,
+  "n_bonafide": 18452,
+  "n_spoof": 163114,
+  "decision_threshold": 0.5,
+  "eer": 0.18483983422190386,
+  "auc_roc": 0.8852191446961029,
+  "accuracy": 0.8990559906590441,
+  "precision": 0.9563696194871019,
+  "recall": 0.9300673148840688,
+  "f1_score": 0.9430351026598952,
+  "latency_ms_per_clip": 1.566620022058487,
+  "confusion_matrix": [
+    [
+      11531,
+      6921
+    ],
+    [
+      11407,
+      151707
+    ]
+  ]
+}
